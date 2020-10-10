@@ -37,3 +37,7 @@ This build of dwm uses the following patches (in order of when they were applied
 + [pertag-perseltag](https://dwm.suckless.org/patches/pertag) - Gives each tag some of their own localized variables, such as the number of windows in the master stack.
 
 + [resetlayout](https://dwm.suckless.org/patches/resetlayout) - Resets the layout (and number of master windows) of the current tag when it has one or less windows occupying it.
+
++ [xresources](https://dwm.suckless.org/patches/xresources) - Allows configuration of dwm via [xrdb](https://cgit.freedesktop.org/xorg/app/xrdb).
+
++ [fancybar](https://dwm.suckless.org/patches/fancybar) - All windows in the current tag will have their titles shown in the status bar, as opposed to just the selected window.
